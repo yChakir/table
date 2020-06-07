@@ -31,13 +31,11 @@ public class Table extends BaseModel<String> {
   /**
    * Http request configuration
    */
-  // todo
   private Request request;
 
   /**
    * Http response configuration
    */
-  // todo
   private Response response;
 
   /**
@@ -61,7 +59,6 @@ public class Table extends BaseModel<String> {
   /**
    * Pager configuration
    */
-  // todo
   private Pager pager;
 
   /**

@@ -1,5 +1,5 @@
 package ma.tiwtiw.table.model;
 
-public enum RequestType {
+public enum RequestTypeEnum {
   PAGE, SKIP
 }

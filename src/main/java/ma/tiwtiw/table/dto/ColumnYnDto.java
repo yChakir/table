@@ -1,4 +1,4 @@
-package ma.tiwtiw.table.model;
+package ma.tiwtiw.table.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,10 +9,14 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Response {
+public class ColumnYnDto {
 
-  /**
-   * Map name total、list, could be set like a.b.c
-   */
-  private ResponseName responseName;
+  private Object truth;
+
+  private String yes;
+
+  private String no;
+
+  private String mode;
+
 }

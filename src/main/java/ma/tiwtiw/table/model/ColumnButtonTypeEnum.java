@@ -1,5 +1,5 @@
 package ma.tiwtiw.table.model;
 
-public enum ColumnButtonType {
+public enum ColumnButtonTypeEnum {
   NONE, DEL, MODAL, STATIC, DRAWER, LINK
 }

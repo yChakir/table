@@ -30,7 +30,7 @@ public class ColumnButton {
   /**
    * Type of button
    */
-  private ColumnButtonType type;
+  private ColumnButtonTypeEnum type;
 
   /**
    * Whether to pop confirm

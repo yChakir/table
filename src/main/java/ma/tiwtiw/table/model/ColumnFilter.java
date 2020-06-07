@@ -27,7 +27,6 @@ public class ColumnFilter {
   /**
    * Whether the data is filtered
    */
-  // todo
   private Boolean _default;
 
   /**

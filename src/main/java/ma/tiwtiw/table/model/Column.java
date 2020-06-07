@@ -59,7 +59,6 @@ public class Column {
   /**
    * Replace with default value when no data exists (value typeof is undefined)
    */
-  // todo
   private String _default;
 
   /**

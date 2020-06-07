@@ -15,7 +15,7 @@ public class Request {
   /**
    * Pagination type, page used pi, ps; skip used skip, limit
    */
-  private RequestType type = RequestType.PAGE;
+  private RequestTypeEnum type = RequestTypeEnum.PAGE;
 
   /**
    * Request parameters, default to auto append pi, ps to URL
@@ -40,7 +40,6 @@ public class Request {
   /**
    * Map name pi、ps
    */
-  // todo
   private RequestName requestName;
 
   /**
