@@ -22,7 +22,6 @@ public class Request {
   /**
    * Request parameters, default to auto append pi, ps to URL
    */
-  @Default
   private Map<String, String> params;
 
   /**
