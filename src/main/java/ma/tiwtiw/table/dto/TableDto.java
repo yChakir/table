@@ -8,11 +8,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import ma.tiwtiw.core.dto.BaseDto;
-import ma.tiwtiw.table.model.Column;
-import ma.tiwtiw.table.model.Pager;
 import ma.tiwtiw.table.model.Request;
-import ma.tiwtiw.table.model.Response;
-import ma.tiwtiw.table.model.SingleSort;
 import ma.tiwtiw.table.model.Table;
 
 @Data
@@ -22,7 +18,7 @@ import ma.tiwtiw.table.model.Table;
 @EqualsAndHashCode(callSuper = true)
 public class TableDto extends BaseDto<Table, String> {
 
-  private List<Column> columns;
+  private List<ColumnDto> columns;
 
   private String data;
 
@@ -30,7 +26,7 @@ public class TableDto extends BaseDto<Table, String> {
   private Request request;
 
   @JsonProperty("res")
-  private Response response;
+  private ResponseDto response;
 
   private Long pi;
 
@@ -39,7 +35,7 @@ public class TableDto extends BaseDto<Table, String> {
   private Long total;
 
   @JsonProperty("page")
-  private Pager pager;
+  private PagerDto pager;
 
   private String noContent;
 
@@ -63,7 +59,7 @@ public class TableDto extends BaseDto<Table, String> {
 
   private Long virtualMinBufferPx;
 
-  private SingleSort singleSort;
+  private SingleSortDto singleSort;
 
   private MultiSortDto multiSort;
 
