@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ma.tiwtiw.table.model.ResponseName;
 
 @Data
 @Builder
@@ -14,5 +13,5 @@ import ma.tiwtiw.table.model.ResponseName;
 public class ResponseDto {
 
   @JsonProperty("reName")
-  private ResponseName responseName;
+  private ResponseNameDto responseName;
 }

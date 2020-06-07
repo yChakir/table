@@ -8,7 +8,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import ma.tiwtiw.core.dto.BaseDto;
-import ma.tiwtiw.table.model.Request;
 import ma.tiwtiw.table.model.Table;
 
 @Data
@@ -23,7 +22,7 @@ public class TableDto extends BaseDto<Table, String> {
   private String data;
 
   @JsonProperty("req")
-  private Request request;
+  private RequestDto request;
 
   @JsonProperty("res")
   private ResponseDto response;

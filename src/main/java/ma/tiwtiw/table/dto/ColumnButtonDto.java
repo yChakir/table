@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ma.tiwtiw.table.model.ACLType;
 
 @Data
 @Builder
@@ -29,7 +28,7 @@ public class ColumnButtonDto {
 
   private List<ColumnButtonDto> children;
 
-  private ACLType acl;
+  private ACLTypeDto acl;
 
   private String tooltip;
 }
